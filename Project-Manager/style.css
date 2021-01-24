@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Poppins';
+    background-color: #f6f5f5;
+    overflow: visible;
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.card {
+    border-radius: 10px;
+    height: 500px;
+    width: 250px;
+    background-color: #dbe2ef;
+    box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.1), 0px 40px 40px rgb(0, 0, 0, 0.5);
+
+    font-size: smaller;
+    cursor: pointer;
+
+
+
+}
+
+
+.card:hover {
+    transition: transform 1s;
+    transform: scale(1.2);
+}
+
+img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    height: 200px;
+    width: 100%;
+
+}
+
+.tit-1 {
+
+
+    border: 2px solid #3f72af;
+    border-radius: 2px;
+    width: 230px;
+
+    margin: 0 auto 0 auto;
+
+
+}
+
+.tit {
+    padding-bottom: 50px;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    order: 1;
+    flex-direction: row;
+}
+
+p {
+    padding: 10px;
+}
+
+.author {
+    text-align: center;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.s {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3f72af;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #30475e;
+}
+.author{
+    margin-bottom: 0;
+}
